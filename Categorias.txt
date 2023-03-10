@@ -1,0 +1,8 @@
+Lacteos
+Harinas
+Granos
+Abarrotes
+Aseo
+Mascotas
+Bevidas
+Licores
