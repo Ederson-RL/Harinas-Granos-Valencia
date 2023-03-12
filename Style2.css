@@ -91,63 +91,75 @@ body{
     display: block;
 }
 
-.mercado{
-    /* background-color: blue; */
-    width: 100%;
-    padding: 150px;
-    height: 600px;
+/* CONTACTO */
+.bodyS{
+    background-image: none;
 }
 
-.h1-mercado{
-    font-family: 'Anton', sans-serif;
-    /* font-family: 'Golos Text', sans-serif; */
-    /* font-family: 'Noto Sans', sans-serif; */
-    /* font-family: 'Quicksand', sans-serif; */
-    font-size: 100px;
-   
-}
-
-.mercado p{
-    font-family: 'Golos Text', sans-serif;
-    font-size: 30px;
-}
-
-.comprar{
-    /* background-color: aqua; */
-    position: relative;
-    bottom: 70px;
-    width: 100%;
-    height: 40px;
+.h1-title{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-right: 100px;
-    cursor: pointer;
+    align-items: center;
 }
 
-.comprar button{
-    font-size: 20px;
-    background-color: rgb(255, 255, 255);
-    height: 50px;
-    width: 250px;
-    border-radius: 8px;
-    border-color: rgb(255, 255, 255);
-    cursor: pointer;
-}
-
-.img-right{
-    margin-top: 40px;
-    
+.h1-title h1{
+    padding-top: 20px;
+    font-size: 120px;
+    font-family: 'Anton', sans-serif;
 }
 
 main{
+    padding: 50px 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    padding-bottom: 0px;
 }
+
+main div {
+    display: flex;
+    justify-content: space-between;
+}
+main div img{
+    height: 600px;
+}
+
+.parrafo{
+    margin-top: 70px;
+    font-size: 40px;
+    margin-right: 200px;
+} 
 
 footer{
-    background-color: rgb(255, 255, 255);
     height: 100px;
+    /* position: relative */
+    background-color: rgb(255, 255, 255);
 }
 
+.main-contactos{
+    padding: 5% 20%;    
+}
 
+p{
+    padding-top: 20px;
+    justify-content: center;
+    padding-left: 3px;
+    font-size: 20px;
+}
+
+.ul-number{
+    padding-left: 35px;
+    
+} 
+
+li{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.footerC{
+    height: 100px;
+    /* position: relative */
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
