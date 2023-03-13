@@ -102,6 +102,8 @@ input{
     border-radius: 20px;
     height: 50px;
     color: white;
+    width: 300PX;
+    margin-top: 20px;
 }
 
 .registrarse{
