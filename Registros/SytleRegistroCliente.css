@@ -13,8 +13,8 @@
 }
 
 
-body{
-    background-color: D3E1EB;
+.body{
+    background-color: #D3E1EB;
     background-image: url(./Iconos/Captura\ de\ pantalla\ 2023-03-11\ 172841.jpg);
     background-repeat: no-repeat;
     background-position: 50px 50px;
@@ -45,106 +45,6 @@ body{
     transform:scale(1.2) ;
 }
 
-.nav-links{
-    list-style: none;
-}
-
-.nav-links li{
-    display: inline;
-    padding: 0 20px;
-}
-
-.menu-horizontal{
-
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-.menu-horizontal li a{
-    display: block;
-    padding: 15px 20px;
-    /* text-decoration: none; */
-    border-color: black;
-    box-sizing: 5px;
-
-}
-
-.li-vertical{
-    background-color: #ffffff;
-}
-
-.li-vertical:hover{
-    background-color: #bcbcbc;
-}
-
-.menu-vertical{
-    position: absolute;
-    display: none;
-    list-style: none;
-    width: 180px;
-    background-color: #ffffff;
-    
-}
-
-.menu-horizontal li:hover .menu-vertical{
-    display: block;
-}
-
-.mercado{
-    /* background-color: blue; */
-    width: 100%;
-    padding: 150px;
-    height: 600px;
-}
-
-.h1-mercado{
-    font-family: 'Anton', sans-serif;
-    /* font-family: 'Golos Text', sans-serif; */
-    /* font-family: 'Noto Sans', sans-serif; */
-    /* font-family: 'Quicksand', sans-serif; */
-    font-size: 100px;
-   
-}
-
-.mercado p{
-    font-family: 'Golos Text', sans-serif;
-    font-size: 30px;
-}
-
-.comprar{
-    /* background-color: aqua; */
-    position: relative;
-    bottom: 70px;
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 100px;
-    cursor: pointer;
-}
-
-.comprar button{
-    font-size: 20px;
-    background-color: rgb(255, 255, 255);
-    height: 50px;
-    width: 250px;
-    border-radius: 8px;
-    border-color: rgb(255, 255, 255);
-    cursor: pointer;
-}
-
-.img-right{
-    margin-top: 40px;
-    
-}
-
-main{
-    display: flex;
-    justify-content: space-around;
-}
-
 footer{
     background-color: rgb(255, 255, 255);
     height: 100px;
@@ -154,4 +54,59 @@ form img{
     height: 30px;
 }
 
-#fun
+label{
+    margin-top: 10px;
+    color: #004AAD;
+    font-size: 30px;
+}
+
+input{
+    border: 3px solid #004AAD;
+    width: 90%;
+    height: 40px; 
+    
+}
+#input{
+    margin-top: 30px;
+}
+#registrar{
+    color: #004AAD;
+    border-radius: 10px;
+    height: 50px;
+    border-color: white;
+    background-color: #ffffff;
+    font-size: 30px;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+#input-masculino{
+    margin-top: 30px;
+    padding-left: 545px;
+}
+
+#input-femenino{
+    margin-top: 30px;
+    padding-right: 100px;
+}
+
+#checkbox-masculino{
+    padding-left: 500px;
+}
+
+#checkbox-femenino{
+    padding-right:610px;
+}
+#masculino{
+    height: 35px;
+}
+
+#femenino{
+    height: 35px;
+}
+
+.generos{
+    height: 60px;
+}

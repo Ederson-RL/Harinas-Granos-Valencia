@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro empleado</title>
+    <title>Registro cliente</title>
     <link rel="stylesheet" href="./SytleRegistroCliente.css">
     <!-- Boostrap ---> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 <body class="body">
     <header id="header">
         <nav>
-            <h1>Formulario de registro de empleado</h1>
+            <h1>Formulario de registro de Cliente</h1>
         </nav>
         <div class="logo">
             <img class="imgLogo" src="./../Iconos/image-removebg-preview.png" alt="Logo Empresa">
@@ -38,21 +38,21 @@
                     <input class="controls" type="text" name="apellidos" id="apellido" placeholder="Escriba su apellido">
                 </div>
             </form>
-            <!-- tipo de documento y numero de documento -->
+            <!-- correo y direccion -->
             <form class="row" action="">
                 <div class="col-6">
-                    <label for="nombres" class="email-imput">Tipo de documento</label>
+                    <label for="correo" class="email-imput">Correo</label>
                 </div>
                 <div class="col-6">
-                    <label for="contraseña">Numero de documento</label>
+                    <label for="direccion">Direccion</label>
                 </div>
             </form>
             <form class="row" action="">
                 <div class="col-6">
-                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre">
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="Escriba su correo">
                 </div>
                 <div class="col-6">
-                    <input class="controls" type="number" name="contraseña" id="correo" placeholder="CONTRASEÑA">
+                    <input class="controls" type="text" name="contraseña" id="correo" placeholder="Escriba su direccion">
                 </div>
             </form>
             <!-- celular y telefono -->
@@ -72,40 +72,6 @@
                     <input class="controls" type="number" name="contraseña" id="correo" placeholder="CONTRASEÑA">
                 </div>
             </form>
-            <!-- correo y direccion -->
-            <form class="row" action="">
-                <div class="col-6">
-                    <label for="correo" class="email-imput">Correo</label>
-                </div>
-                <div class="col-6">
-                    <label for="direccion">Direccion</label>
-                </div>
-            </form>
-            <form class="row" action="">
-                <div class="col-6">
-                    <input class="controls" type="email" name="correo" id="correo" placeholder="Escriba su correo">
-                </div>
-                <div class="col-6">
-                    <input class="controls" type="text" name="contraseña" id="correo" placeholder="Escriba su direccion">
-                </div>
-            </form>
-            <!-- codigo postal y contacto de emergencia -->
-            <form class="row" action="">
-                <div class="col-6">
-                    <label for="nombres" class="email-imput">Codigo postal</label>
-                </div>
-                <div class="col-6">
-                    <label for="contraseña">Contacto de emergencia</label>
-                </div>
-            </form>
-            <form class="row" action="">
-                <div class="col-6">
-                    <input class="controls" type="number" name="nombres" id="nombres" placeholder="Escriba su codigo postal">
-                </div>
-                <div class="col-6">
-                    <input class="controls" type="number" name="contraseña" id="correo" placeholder="Escriba un contacto de emergencia">
-                </div>
-            </form>
             <!-- contraseña y confirmar contraseña -->
             <form class="row" action="">
                 <div class="col-6">
@@ -123,6 +89,26 @@
                     <input class="controls" type="password" name="contraseña" id="correo" placeholder="Confirmar contraseña">
                 </div>
             </form>
+            <!-- genero -->
+                
+            <form class="row" action="">
+                <div class="col-6" id="input-masculino">
+                    <label for="nombres" class="email-imput"><img  class="generos" src="./../Iconos/masculino.jpg" alt="masculino"></label>
+                </div>
+                <div class="col-6" id="input-femenino">
+                    <label for="contraseña"><img class="generos" src="./../Iconos/femenino.jpg" alt="femenino"></label>
+                </div>
+            </form>
+            <form class="row" action="">
+                <div class="col-6" id="checkbox-masculino">
+                    <input class="controls" type="checkbox" name="nombres" id="masculino" >
+                </div>
+                <div class="col-6" id="checkbox-femenino" >
+                    <input class="controls" type="checkbox" name="contraseña" id="femenino">
+                </div>
+            </form>
+
+            <!-- boton de registrar -->
             <div class="row" id="input">
                 <div class="col-9"></div>
                 <input class="col-3" id="registrar" type="submit" value="Registrar">
