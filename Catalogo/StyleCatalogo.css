@@ -13,13 +13,15 @@
 }
 
 
-.body{
+body{
+    /* display: flex; */
     background-color: #D3E1EB;
     background-image: url(./Iconos/Captura\ de\ pantalla\ 2023-03-11\ 172841.jpg);
     background-repeat: no-repeat;
     background-position: 50px 50px;
     background-size: 750px;
     background-position: 150px 150px;
+    
 }
 
 #header{
@@ -45,74 +47,40 @@
     transform:scale(1.2) ;
 }
 
-footer{
-    background-color: rgb(255, 255, 255);
-    height: 100px;
+.nav-links{
+    list-style: none;
 }
 
-form img{
-    height: 30px;
+.nav-links li{
+    display: inline;
+    padding: 0 20px;
 }
 
-label{
-    margin-top: 10px;
-    color: #004AAD;
-    font-size: 30px;
+h1{
+    font-size: 50px;
 }
 
-input{
-    border: 3px solid #004AAD;
-    width: 90%;
-    height: 40px; 
-    
-}
-#input{
-    margin-top: 30px;
-}
-#registrar{
-    color: #004AAD;
-    border-radius: 10px;
-    height: 50px;
-    border-color: white;
-    background-color: #ffffff;
-    font-size: 30px;
+main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(0, 255, 21); */
+    height: 800px;
+
 }
 
-.container{
-    margin-top: 50px;
+.img-catalogo{
+    height: 600px;
+    width: 1500px;
+    /* background-color: aqua; */
 }
 
-#input-masculino{
-    margin-top: 30px;
-    padding-left: 545px;
-}
-
-#input-femenino{
-    margin-top: 30px;
-    padding-right: 100px;
-}
-
-#checkbox-masculino{
-    padding-left: 500px;
-}
-
-#checkbox-femenino{
-    padding-right:610px;
-}
-#masculino{
-    height: 35px;
-}
-
-#femenino{
-    height: 35px;
-}
-
-.generos{
-    height: 60px;
+#img{
+    width: 100%;
 }
 
 footer{
-    margin-top: 20px;
-    background-color: rgb(255, 255, 255);
     height: 100px;
-}
+    background-color: white;
+} 
