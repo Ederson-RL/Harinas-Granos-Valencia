@@ -1,4 +1,4 @@
-body{
+#body{
     background-color: #D3E1EB;
 }
 
@@ -98,7 +98,7 @@ input{
     border-radius: 20px;
 }
 
-.botons{
+#botons{
     display: flex;
     background-color: #004AAD;
     justify-content: center;
@@ -106,7 +106,7 @@ input{
     border-radius: 20px;
     height: 50px;
     color: white;
-    width: 300PX;
+    width: 200PX;
     margin-top: 20px;
 }
 
@@ -134,7 +134,16 @@ input[type="radio"]:checked + .labels{
 } 
 
 .registrarse{
-    color: #1696D3;
+    color: #08425d;
     margin-top: 20px;
     font-size: larger;
+}
+
+#inputs{
+    flex-direction: column;
+    border: solid 3px #004AAD;
+    justify-content: space-around;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
 }

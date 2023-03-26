@@ -66,6 +66,12 @@ input{
     height: 40px; 
     
 }
+#inputs{
+    border: 3px solid #004AAD;
+    width: 90%;
+    height: 40px; 
+}
+
 #input{
     margin-top: 30px;
 }
@@ -97,8 +103,9 @@ input{
 }
 
 #checkbox-femenino{
-    padding-right:610px;
+    padding-right:604px;
 }
+
 #masculino{
     height: 35px;
 }
@@ -115,4 +122,8 @@ footer{
     margin-top: 20px;
     background-color: rgb(255, 255, 255);
     height: 100px;
+}
+
+#Generos{
+    
 }

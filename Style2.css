@@ -14,7 +14,7 @@
 
 
 body{
-    background-color: #73B1C3;
+    background-color: #D3E1EB;
     background-image: url(./Iconos/Captura\ de\ pantalla\ 2023-03-11\ 172841.jpg);
     background-repeat: no-repeat;
     background-position: 50px 50px;
@@ -127,7 +127,7 @@ main div img{
 .parrafo{
     margin-top: 70px;
     font-size: 40px;
-    margin-right: 200px;
+    margin-right: 250px;
 } 
 
 footer{

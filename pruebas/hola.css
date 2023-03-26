@@ -1,0 +1,46 @@
+.radio-square {
+    display: inline-block;
+    position: relative;
+    padding-left: 32px; /* ajusta el tamaño del cuadrado */
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  .radio-square input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .radio-square label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px; /* ajusta el tamaño del cuadrado */
+    height: 24px; /* ajusta el tamaño del cuadrado */
+    border: 2px solid #ccc; /* ajusta el ancho y el color del borde */
+    background-color: #fff; /* ajusta el color de fondo */
+  }
+  
+  .radio-square input:checked ~ label:before {
+    background-color: #007bff; /* ajusta el color de fondo cuando está seleccionado */
+  }
+  
+  .radio-square label:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 7px; /* ajusta la posición del punto dentro del cuadrado */
+    top: 7px; /* ajusta la posición del punto dentro del cuadrado */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff; /* ajusta el color del punto */
+  }
+  
+  .radio-square input:checked ~ label:after {
+    display: inline-block;
+    background-color: #007bff; /* ajusta el color del punto cuando está seleccionado */
+  }

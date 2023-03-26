@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Golos Text', sans-serif;
+    /* font-family: 'Noto Sans', sans-serif; */
+    /* font-family: 'Quicksand', sans-serif; */
     color: black;
     font-size: medium;
 }
@@ -15,14 +17,28 @@
     align-items: center;
     padding: 5px 10%;
 }
-body{
+.bodyE{
     background-color: #d3e1eb;
-    background-image: url(./../Iconos/Fondo\ de\ cable.png);
+    background-image: url(./../Iconos/Fondo_error_500.png);
     background-size: 100%;
+ 
     
-   
+  
 }
+.bodyC{
+    background-color: #d3e1eb;
+ 
+ 
+    
+  
+}
+
 .imgLogo{
+    height: 100px;
+    width: auto;
+    transition: all 0.3s;
+}
+.imgAdv{
     height: 100px;
     width: auto;
     transition: all 0.3s;
@@ -31,15 +47,19 @@ body{
 .imgLogo:hover{
     transform:scale(1.2) ;
 }
+.imgAdv:hover{
+    transform:scale(1.2) ;
+}
 
 
 .img500{
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 5%;
+margin: 3%;
+
 }
-.img400{
+.img404{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +70,7 @@ margin: 5%;
 .linea1{
     text-align: center;
     font-family: "Homer Simpson UI";
-    font-size: 350%;
+    font-size: 300%;
     color: #1696D3;
    
 }
@@ -65,7 +85,7 @@ margin: 5%;
     text-align: center;
     font-family: "Homer Simpson UI";
     font-size: 320%;
-    color: #1696D3;
+    color: black;
     margin-top: 2%;
 }
 .linea4{

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro cliente</title>
+    <title>Registro proveedores</title>
     <link rel="stylesheet" href="./SytleRegistroCliente.css">
     <link rel="stylesheet" href="./proveedoresStyle.css">
     <!-- Boostrap ---> 
@@ -23,56 +23,65 @@
     <main>
         <div class="container">
             <!-- nombres y apellidos -->
-            <form class="row" action="">
+            <div class="row">
                 <div class="col-6">
-                    <label for="nombres" class="email-imput">Nombres</label>
+                    <label for="nombres">Nombres</label>
                 </div>
                 <div class="col-6">
                     <label for="apellidos">Apellidos</label>
                 </div>
-            </form>
-            <form class="row" action="">
+            </div>
+            <div class="row">
                 <div class="col-6">
-                    <input class="controls" type="text" name="nombres" id="nombre" placeholder="Escriba su nombre">
+                    <input id="inputs" class="controls form-control" type="text" name="nombres" id="nombre" placeholder="Escriba el nombre" required>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
+                    </div>
                 </div>
                 <div class="col-6">
-                    <input class="controls" type="text" name="apellidos" id="apellido" placeholder="Escriba su apellido">
+                    <input id="inputs" class="controls form-control" type="text" name="apellidos" id="apellido" placeholder="Escriba el apellido" required>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
+                    </div>
                 </div>
-            </form>
-            <!-- celular y empresa -->
-            <form class="row" action="">
+            </div>
+            <!-- Celular y empresa -->
+            <div class="row" action="">
                 <div class="col-6">
-                    <label for="nombres" class="email-imput">Celular</label>
-                </div>
-                <div class="col-6">
-                    <label for="nombres" class="email-imput">Empresa</label>
-                </div>
-            </form>
-            <form class="row" action="">
-                <div class="col-6">
-                    <input class="controls" type="number" name="nombres" id="nombres" placeholder="celular">
+                    <label for="Celular">Celular</label>
                 </div>
                 <div class="col-6">
-                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Empresa">
+                    <label for="Empresa">Empresa</label>
                 </div>
-            </form>
-            <!-- correo y direccion -->
-            <form class="row" action="">
+            </div>
+            <div class="row" action="">
                 <div class="col-6">
-                    <label for="correo" class="email-imput">Correo</label>
-                </div>
-                <div class="col-6">
-                    <label for="direccion">Direccion</label>
-                </div>
-            </form>
-            <form class="row" action="">
-                <div class="col-6">
-                    <input class="controls" type="email" name="correo" id="correo" placeholder="Correo">
+                    <input id="inputs" class="controls form-control" type="number" name="Celular" id="correo" placeholder="Escriba el numero celular" required>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
+                    </div>
                 </div>
                 <div class="col-6">
-                    <input class="controls" type="text" name="contraseña" id="correo" placeholder="Direccion">
+                    <input id="inputs" class="controls form-control" type="text" name="Empresa" id="direccion" placeholder="Escriba el nomre de la emprea" required>
+                    <div class="invalid-feedback">
+                        campo obligatorio
+                    </div>
                 </div>
-            </form>
+            </div>
+            <!-- celular y telefono -->
+            <div class="row" action="">
+                <div class="col-6">
+                    <label for="correo">Correo</label>
+                </div>
+            </div>
+            <div class="row" action="">
+                <div class="col-6">
+                    <input id="inputs" class="controls form-control" type="email" name="correo" id="celular" placeholder="Ingrese el correo" required>
+                    <div class="invalid-feedback">
+                        Campo obligatorio
+                    </div>
+                </div>        
+            </div>
             <!-- botones -->
             <div class="row" id="inputButon">
                 <input class="col-4" id="boton" type="submit" value="Regresar">

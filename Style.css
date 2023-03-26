@@ -13,25 +13,26 @@
 }
 
 
-body{
-    background-color: #73B1C3;
-    background-image: url(./Iconos/Captura\ de\ pantalla\ 2023-03-11\ 172841.jpg);
+/* body{ */
+    /* background-color: #399ee6; */
+    /* background-image: url(./Iconos/canastaClara.PNG);
     background-repeat: no-repeat;
     background-position: 50px 50px;
-    background-size: 750px;
-    background-position: 150px 150px;
-}
+    background-size: 650px;
+    background-position: 150px 150px;  */
+/* } */
 
 #header{
     background-color: rgb(255, 255, 255) ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10%;
+    padding: 5px 3%;
 }
 
 .logo {
     cursor: pointer;
+    margin-right: 14%;
 }
 
 
@@ -137,21 +138,41 @@ body{
 
 .img-right{
     margin-top: 40px;
-    
+    width: 600px;
 }
 
 main{
     display: flex;
     justify-content: space-around;
+    background-color: #d3e1eb;
+    background-image: url(./Iconos/canastaClara.PNG);
+    background-repeat: no-repeat;
+    background-position: 100px ;
+    background-size: 650px;
+    height: 800px;
+
 }
 
 footer{
+    /* margin-top: 600px; */
     background-color: rgb(255, 255, 255);
-    height: 100px;
+    height: 20px;
 }
 
 form img{
     height: 30px;
 }
 
-#fu
+#link{
+    color: black;
+}
+
+#Buscar{
+    /* margin-right: 60px; */
+    height: 35px;
+    margin-top: 10px;
+}
+.productos{
+    text-decoration: none;
+    color: black;
+}
