@@ -147,3 +147,9 @@ input[type="radio"]:checked + .labels{
     height: 40px;
     width: 200px;
 }
+.footer{
+    height: 100px;
+    /* position: relative */
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+}
