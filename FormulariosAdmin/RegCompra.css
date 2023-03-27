@@ -104,7 +104,7 @@ header nav a img{
     margin-bottom: 20px;
 }
 
-.line1{
+#line1{
     margin-bottom: 20px;
     margin-left: 0px;
     width: 300px;
@@ -145,6 +145,7 @@ label{
     background-color: #D3E1EB;
     margin-bottom: 30px;
     padding-left: 5%;
+    padding-right: 5%;
     height: 200px;
     
 }
@@ -163,13 +164,13 @@ label{
     border-radius: 5px;
 }
 
-.largo{
+#largo{
     border: 3px solid #004AAD;
     width: 370px;
     height: 40px;
 }
 
-.peque{
+#peque{
     border: 3px solid #004AAD;
     width: 200px;
     height: 40px;
@@ -194,4 +195,8 @@ label{
     margin-left: 10%;
     border-style: none;
     border-radius: 5px;
+}
+
+main{
+    margin: 50px 10%;
 }

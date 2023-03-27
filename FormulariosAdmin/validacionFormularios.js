@@ -19,12 +19,6 @@
     // document.getElementById("boton-noValida").preventDefault = false;
   })()
 
-  // const btn = document.getElementById("boton-noValida");
-
-  // btn.addEventListener("click", function(event) {
-  //   event.preventDefault(); // Evita que se envíe el formulario
-  //   // Código adicional aquí
-  // });
 
   
 
