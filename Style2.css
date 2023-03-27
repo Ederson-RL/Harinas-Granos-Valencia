@@ -147,10 +147,10 @@ p{
     font-size: 20px;
 }
 
-.ul-number{
+/* .ul-number{
     padding-left: 35px;
     
-} 
+}  */
 
 li{
     padding-top: 20px;
@@ -162,4 +162,22 @@ li{
     /* position: relative */
     background-color: rgb(255, 255, 255);
     margin-top: 50px;
+}
+
+#bodyS{
+    background-color: #D3E1EB;
+    background-image: url(./Iconos/Captura\ de\ pantalla\ 2023-03-11\ 172841.jpg);
+    background-repeat: no-repeat;
+    background-position: 50px 50px;
+    background-size: 750px;
+    background-position: 150px 150px;
+}
+
+.productos{
+    text-decoration: none;
+    color: black;
+}
+
+#link{
+    color: black;
 }
